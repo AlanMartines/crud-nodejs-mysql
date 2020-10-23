@@ -14,7 +14,7 @@ const app = express();
 const conn = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '',
+  password: '!q2w3e4r5t6y',
   database: 'crud_db'
 });
 
@@ -73,6 +73,6 @@ app.post('/delete',(req, res) => {
 });
 
 //server listening
-app.listen(8000, () => {
+app.listen(3000, () => {
   console.log('Server is running at port 8000');
 });
